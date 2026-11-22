@@ -1,0 +1,35 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+ENV/
+
+# Переменные окружения и секреты (токены бота, пароли, ключи API)
+.env
+.env.*
+!.env.example
+
+# Кэш и скомпилированные файлы Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Локальные базы данных (если используешь SQLite, например .db или .sqlite3)
+*.db
+*.sqlite
+*.sqlite3
+
+# Служебные файлы VS Code и ОС
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
